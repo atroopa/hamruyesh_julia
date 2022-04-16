@@ -22,3 +22,21 @@ my_first_string = "Hello"
 println("First Char is : ",my_first_string[1])
 println("length is     : " , length(my_first_string))
 
+println(repeat("--", 20))
+
+my_name = "My Name is \"Omid Hajavi\""
+println(my_name)
+
+println(repeat("--", 20))
+
+first_word  = "Hello"
+second_word = "World!"
+concat      = first_word * " " * second_word
+intop       = "$first_word => $second_word"
+intop_func  = "$first_word => $(uppercase(second_word))"
+println(concat)
+println(intop)
+println(intop_func)
+
+println(repeat("--", 20))
+
