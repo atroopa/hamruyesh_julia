@@ -57,3 +57,15 @@ println(typeof(test_int64))
 println(test_int64)
 
 println(repeat("--", 20))
+
+
+a = 8       #int
+b = 2.5     #float
+c = a+b
+d = a/b
+e = a\b
+f = b/a
+println(c)  # Result = > Float
+println(d)
+println(e)
+println(f)
