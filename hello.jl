@@ -69,3 +69,12 @@ println(c)  # Result = > Float
 println(d)
 println(e)
 println(f)
+
+println(repeat("--", 20))
+
+my_array = [1,2,3,4,5,6,7,8,9]
+# println(my_array ^ 2) # Error
+
+my_arry_vectorized = my_array .^ 2 .+ 3 .* 6 # vectorized dot . 
+println(my_arry_vectorized)
+
