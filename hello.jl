@@ -40,3 +40,20 @@ println(intop_func)
 
 println(repeat("--", 20))
 
+say_hi = "heسlo"
+println(say_hi[3])
+println(say_hi[5])
+println(length(say_hi))
+
+println(repeat("--", 20))
+
+my_int_number = 42_000_000
+
+println(typeof(my_int_number))
+println(typemin(Int64)-2)
+println(typemax(Int64)+2)
+test_int64 = 9223372036854775807 
+println(typeof(test_int64))
+println(test_int64)
+
+println(repeat("--", 20))
